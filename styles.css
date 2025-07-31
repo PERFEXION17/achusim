@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Quicksand:wght@300..700&family=UnifrakturMaguntia&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=UnifrakturCook:wght@700&display=swap');
 
 :root {
     --primary_color: #000;
     --sec_color: #ffdf00;
     --white: #fff;
-    --font_1: "UnifrakturMaguntia", cursive;
+    --font_1: "UnifrakturCook", cursive;
     --font_2: "Orbitron", sans-serif;
     --max-width: 1200px;
 }
