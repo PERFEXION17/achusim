@@ -206,14 +206,6 @@ main {
     line-height: 1.5;
 }
 
-.loading{
-    background: linear-gradient(90deg, var(--sec_color), #fff, var(--sec_color));
-    background-size: 200% 100%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: shimmer 1.5s infinite;
-}
-
 @keyframes shimmer {
     0% {
         background-position: -200% 0;
