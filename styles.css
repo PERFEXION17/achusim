@@ -207,8 +207,39 @@ main {
 }
 
 .loading{
-    font-style: italic;
+    background: linear-gradient(90deg, var(--sec_color), #fff, var(--sec_color));
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: -200% 0;
+    }
+
+    100% {
+        background-position: 200% 0;
+    }
+}
+
+.ri-checkbox-circle-fill{
     color: var(--sec_color);
+}
+
+.load{
+    
+    animation: load 2s linear infinite;
+}
+
+@keyframes load{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
 }
 
 .contact {
