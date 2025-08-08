@@ -132,6 +132,12 @@ main {
     position: relative;
     padding: 1rem 2rem;
     width: 100%;
+    transition: .5s;
+    margin: 1rem 0;
+}
+
+.pages:hover{
+    box-shadow: 1px 1px 10px var(--sec_color);
 }
 
 .pages_bgd {
@@ -181,6 +187,11 @@ main {
     margin: 1rem 2rem;
     font-size: 1.3rem;
     font-weight: 700;
+}
+
+.desc{
+    padding: 0 2rem;
+    font-size: .8rem;
 }
 
 .txt_box {
